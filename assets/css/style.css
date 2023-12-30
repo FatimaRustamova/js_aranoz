@@ -1,0 +1,1137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 0 32px;
+}
+
+.navbar {
+  padding: 20px 0;
+  background-color: #ecfdff;
+}
+.navbar .collapse {
+  justify-content: flex-end;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.navbar .collapse ul {
+  gap: 25px;
+}
+.navbar .collapse ul li {
+  font-weight: 500;
+}
+.navbar .collapse ul li .dropdown-menu {
+  background-color: #ff3368;
+  border-color: #ff3368;
+}
+.navbar .collapse ul li .dropdown-menu li a {
+  color: white;
+}
+.navbar .collapse i {
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.sect1 {
+  width: 100%;
+  padding: 150px 0;
+  background-color: #ecfdff;
+}
+.sect1 .wood {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sect1 .wood .cloth {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sect1 .wood .cloth h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+.sect1 .wood .cloth p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: dimgrey;
+}
+.sect1 .wood .cloth .button {
+  width: 180px;
+  height: 55px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 100%, #ffba00 100%);
+  border: 1px solid #ff3368;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+.sect1 .wood .cloth .button:hover {
+  background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ffba00 100%);
+}
+.sect1 .wood .sofa {
+  width: 65%;
+}
+.sect1 .wood .sofa img {
+  width: 100%;
+}
+
+.sect2 {
+  width: 100%;
+  padding: 80px 0;
+}
+.sect2 .feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect2 .feature h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+.sect2 .quality {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.sect2 .quality .premium {
+  width: 55%;
+  padding: 30px 0 0 30px;
+  background-color: #f8fbff;
+  display: flex;
+}
+.sect2 .quality .premium .left {
+  width: 45%;
+}
+.sect2 .quality .premium .left p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: dimgrey;
+  font-size: 16px;
+}
+.sect2 .quality .premium .left h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.sect2 .quality .premium .right {
+  width: 55%;
+}
+.sect2 .quality .premium .right img {
+  width: 100%;
+}
+.sect2 .quality .late {
+  width: 42%;
+  padding: 30px 0 0 30px;
+  background-color: #f8fbff;
+  display: flex;
+}
+.sect2 .quality .late .left {
+  width: 50%;
+}
+.sect2 .quality .late .left p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: dimgrey;
+  font-size: 16px;
+}
+.sect2 .quality .late .left h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.sect2 .quality .late .right {
+  width: 49%;
+}
+.sect2 .quality .late .right img {
+  width: 100%;
+}
+.sect2 .quality .foam {
+  width: 42%;
+  padding: 30px 0 0 30px;
+  background-color: #f8fbff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.sect2 .quality .foam .top p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: dimgrey;
+  font-size: 16px;
+}
+.sect2 .quality .foam .top h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.sect2 .quality .foam .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.sect2 .quality .foam .bottom img {
+  width: 55%;
+  padding-right: 20px;
+}
+.sect2 .quality .yellow {
+  width: 55%;
+  padding: 30px 0 0 30px;
+  background-color: #f8fbff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 15px;
+}
+.sect2 .quality .yellow .top p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: dimgrey;
+  font-size: 16px;
+}
+.sect2 .quality .yellow .top h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.sect2 .quality .yellow .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.sect2 .quality .yellow .bottom img {
+  width: 95%;
+  padding-right: 20px;
+}
+
+.sect3 {
+  width: 100%;
+  padding: 80px 0;
+}
+.sect3 .awesome {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sect3 .awesome .shop {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.sect3 .awesome .shop h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+.sect3 .awesome .shop p {
+  color: dimgrey;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.sect3 .awesome .next h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.sect3 .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.sect3 .search input {
+  width: 350px;
+  height: 50px;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border: 1px solid teal;
+}
+.sect3 .search input:focus {
+  outline: none;
+}
+.sect3 .search #sort {
+  width: 120px;
+  height: 45px;
+  background-color: #ff3368;
+  border: 1px solid #ff3368;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.sect3 .aranoz {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  gap: 20px;
+}
+.sect3 .aranoz .quartz {
+  width: 23%;
+  position: relative;
+}
+.sect3 .aranoz .quartz i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+}
+.sect3 .aranoz .quartz .img {
+  width: 100%;
+  height: 65%;
+}
+.sect3 .aranoz .quartz .img img {
+  width: 100%;
+  height: 100%;
+}
+.sect3 .aranoz .quartz .about {
+  width: 100%;
+  height: 35%;
+  padding: 30px 0;
+}
+.sect3 .aranoz .quartz .about h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.sect3 .aranoz .quartz .about p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: dimgrey;
+}
+.sect3 .aranoz .quartz button {
+  width: 150px;
+  height: 45px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  background-color: teal;
+  border: 1px solid teal;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.sect3 .aranoz .quartz button:hover {
+  background-color: rgb(1, 97, 97);
+}
+.sect3 .load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.sect3 .load button {
+  width: 150px;
+  height: 45px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #ff3368;
+  border: 1px solid #ff3368;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details {
+  width: 100%;
+  padding: 70px 0 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details .quartz {
+  width: 20%;
+  border: 2px solid teal;
+}
+.details .quartz .img {
+  width: 100%;
+  height: 60%;
+}
+.details .quartz .img img {
+  width: 100%;
+  height: 100%;
+}
+.details .quartz .about {
+  width: 100%;
+  height: 35%;
+  padding: 30px 0 10px 20px;
+}
+.details .quartz .about h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.details .quartz .about p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: dimgrey;
+}
+
+.sect4 {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #ecfdff;
+}
+.sect4 .week {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sect4 .week .picture {
+  width: 40%;
+}
+.sect4 .week .picture img {
+  width: 100%;
+}
+.sect4 .week .sale {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.sect4 .week .sale h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.sect4 .week .sale .day {
+  width: 100%;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.sect4 .week .sale .day .hours {
+  width: 34%;
+}
+.sect4 .week .sale .day .hours p {
+  color: dimgrey;
+}
+.sect4 .week .sale .day .hours h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.sect4 .week .sale .day .minutes {
+  width: 22%;
+  border-left: 1px solid rgb(194, 194, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sect4 .week .sale .day .minutes p {
+  color: dimgrey;
+}
+.sect4 .week .sale .day .minutes h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.sect4 .week .sale .input {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+.sect4 .week .sale .input input {
+  width: 60%;
+  height: 60px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: white;
+  background-color: white;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+.sect4 .week .sale .input input:focus {
+  outline: none;
+}
+.sect4 .week .sale .input .book {
+  width: 40%;
+  height: 60px;
+  background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 100%, #ffba00 100%);
+  transition: all 0.5s ease;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.sect4 .week .sale .input .book:hover {
+  background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ffba00 100%);
+}
+
+.sect5 {
+  width: 100%;
+  padding: 100px 0;
+}
+.sect5 .best {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sect5 .best .shop {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.sect5 .best .shop h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+.sect5 .best .shop p {
+  color: dimgrey;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.sect5 .best .next h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.sect5 .watch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  gap: 20px;
+}
+.sect5 .watch .quartz {
+  width: 23%;
+}
+.sect5 .watch .quartz .img {
+  width: 100%;
+  height: 65%;
+}
+.sect5 .watch .quartz .img img {
+  width: 100%;
+  height: 100%;
+}
+.sect5 .watch .quartz .about {
+  width: 100%;
+  height: 35%;
+  padding: 30px 0;
+}
+.sect5 .watch .quartz .about h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.sect5 .watch .quartz .about p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: dimgrey;
+}
+
+.sect6 {
+  width: 100%;
+  padding: 150px 0;
+  background-image: url("../images/subscribe_area.png.webp");
+  background-size: cover;
+  background-position: center;
+}
+.sect6 .join {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect6 .join .sub {
+  width: 60%;
+  flex-direction: column;
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect6 .join .sub p {
+  color: #ff3368;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.sect6 .join .sub h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+.sect6 .join .sub .input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.sect6 .join .sub .input input {
+  width: 65%;
+  height: 60px;
+  border-radius: 5px;
+  border: white;
+  background-color: white;
+  padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+.sect6 .join .sub .input input:focus {
+  outline: none;
+}
+.sect6 .join .sub .input .book {
+  width: 32%;
+  height: 60px;
+  background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 100%, #ffba00 100%);
+  transition: all 0.5s ease;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.sect6 .join .sub .input .book:hover {
+  background-image: linear-gradient(16deg, #ff005a 0%, #ff5d2d 64%, #ffba00 100%);
+}
+
+.sect7 {
+  width: 100%;
+  padding: 100px 0;
+}
+.sect7 .creative {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sect7 .creative .premium {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect7 .creative .premium img {
+  width: 100%;
+  padding: 30px;
+  filter: grayscale(1);
+  transition: all 0.5s ease;
+}
+.sect7 .creative .premium img:hover {
+  filter: grayscale(0);
+}
+.sect7 .creative .pre {
+  border-left: 1px solid #edeff2;
+}
+.sect7 .creative #bot {
+  border-bottom: 1px solid #edeff2;
+}
+
+.sect8 {
+  width: 100%;
+  padding: 100px 0;
+}
+.sect8 .quick {
+  display: flex;
+}
+.sect8 .quick .resources {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sect8 .quick .resources h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+}
+.sect8 .quick .resources ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 0;
+  margin-top: 20px;
+}
+.sect8 .quick .resources ul li {
+  list-style-type: none;
+  color: dimgrey;
+  transition: all 0.5s ease;
+}
+.sect8 .quick .resources ul li:hover {
+  color: #ff3368;
+  cursor: pointer;
+}
+.sect8 .quick .news {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sect8 .quick .news p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+}
+.sect8 .quick .news #inp {
+  position: relative;
+}
+.sect8 .quick .news #inp input {
+  width: 85%;
+  height: 55px;
+  background-color: #f8fbff;
+  border: 1px solid #f8fbff;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+.sect8 .quick .news #inp input:focus {
+  outline: none;
+}
+.sect8 .quick .news #inp .subscribe {
+  width: 100px;
+  height: 35px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #ff3368;
+  border-radius: 5px;
+}
+
+footer {
+  width: 100%;
+  padding: 10px 0;
+}
+footer .foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .foot .copy p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: dimgrey;
+  font-size: 17px;
+}
+footer .foot .copy p a {
+  color: #ff3368;
+  text-decoration: none;
+}
+footer .foot .icons {
+  display: flex;
+  gap: 10px;
+}
+footer .foot .icons .i {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+footer .foot .icons .i:hover {
+  background-color: #ff3368;
+  cursor: pointer;
+  color: white;
+}
+footer .foot .icons .i i {
+  color: dimgrey;
+  transition: all 0.5s ease;
+  font-size: 15px;
+}
+footer .foot .icons .i:hover i {
+  color: white;
+}
+
+.add {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(238, 205, 144);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add form {
+  width: 420px;
+  padding: 35px;
+  border: 2px solid teal;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.add form label {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.add form img {
+  width: 55%;
+  margin-left: 70px;
+}
+.add form input[type=file]::-webkit-file-upload-button {
+  width: 120px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #ff3368;
+  border: 1px solid #ff3368;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add form input[type=file]::file-selector-button {
+  width: 120px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #ff3368;
+  border: 1px solid #ff3368;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add form input[type=text] {
+  width: 100%;
+  height: 35px;
+  background-color: white;
+  border: 1px solid white;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.add form input[type=text]:focus {
+  outline: none;
+}
+.add form input[type=submit] {
+  width: 150px;
+  height: 45px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #ff3368;
+  border: 1px solid #ff3368;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.back {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 120px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: white;
+  background-color: teal;
+  border: 1px solid teal;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.favorites {
+  width: 100%;
+}
+.favorites h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(1, 97, 97);
+  margin-top: 30px;
+}
+.favorites h1 i {
+  color: red;
+}
+.favorites #favorites {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  gap: 20px;
+}
+.favorites #favorites .quartz {
+  width: 23%;
+  position: relative;
+}
+.favorites #favorites .quartz i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+}
+.favorites #favorites .quartz .img {
+  width: 100%;
+  height: 65%;
+}
+.favorites #favorites .quartz .img img {
+  width: 100%;
+  height: 100%;
+}
+.favorites #favorites .quartz .about {
+  width: 100%;
+  height: 35%;
+  padding: 30px 0;
+}
+.favorites #favorites .quartz .about h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.favorites #favorites .quartz .about p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: dimgrey;
+}
+.favorites #favorites .quartz button {
+  width: 150px;
+  height: 45px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  background-color: teal;
+  border: 1px solid teal;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.favorites #favorites .quartz button:hover {
+  background-color: rgb(1, 97, 97);
+  cursor: pointer;
+}
+
+.hurricane {
+  position: fixed;
+  visibility: hidden;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: teal;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.hurricane i {
+  color: white;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+  .sect1 .wood .cloth h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .container {
+    max-width: 750px;
+  }
+  .sect1 .wood .cloth {
+    width: 70%;
+  }
+  .sect1 .wood .sofa {
+    display: none;
+  }
+  .sect2 .feature h2 {
+    font-size: 30px;
+  }
+  .sect3 .aranoz .quartz {
+    width: 46%;
+  }
+  .sect5 .watch .quartz {
+    width: 46%;
+  }
+  .sect6 .join .sub {
+    width: 90%;
+  }
+  .sect6 .join .sub h2 {
+    font-size: 28px;
+  }
+  .sect8 .quick {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .sect8 .quick .resources {
+    width: 45%;
+  }
+  .sect8 .quick .news {
+    width: 50%;
+  }
+  footer .foot {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 550px;
+  }
+  .sect1 .wood .cloth {
+    width: 100%;
+  }
+  .sect1 .wood .cloth h1 {
+    font-size: 30px;
+  }
+  .sect3 .awesome .shop {
+    width: 100%;
+  }
+  .sect3 .awesome .shop h2 {
+    font-size: 25px;
+  }
+  .sect3 .awesome .shop p {
+    font-size: 17px;
+  }
+  .sect3 .awesome .next {
+    display: none;
+  }
+  .sect4 .week {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .sect4 .week .picture {
+    width: 100%;
+  }
+  .sect4 .week .sale {
+    width: 100%;
+  }
+  .sect4 .week .sale h2 {
+    font-size: 28px;
+  }
+  .sect5 .best .shop {
+    width: 100%;
+  }
+  .sect5 .best .shop h2 {
+    font-size: 25px;
+  }
+  .sect5 .best .shop p {
+    font-size: 17px;
+  }
+  .sect5 .best .next {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 1200px;
+  }
+  .sect2 .feature h2 {
+    font-size: 25px;
+  }
+  .sect2 .quality {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .sect2 .quality .premium {
+    width: 100%;
+    flex-direction: column;
+  }
+  .sect2 .quality .premium .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .sect2 .quality .premium .right img {
+    width: 50%;
+  }
+  .sect2 .quality .late {
+    width: 100%;
+    flex-direction: column;
+  }
+  .sect2 .quality .late .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .sect2 .quality .late .right img {
+    width: 45%;
+  }
+  .sect2 .quality .foam {
+    width: 100%;
+  }
+  .sect2 .quality .foam .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sect2 .quality .yellow {
+    width: 100%;
+  }
+  .sect2 .quality .yellow .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sect3 .aranoz {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .sect3 .aranoz .quartz {
+    width: 100%;
+  }
+  .sect5 .watch {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .sect5 .watch .quartz {
+    width: 100%;
+  }
+  .sect6 .join .sub {
+    width: 100%;
+  }
+  .sect8 .quick {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .sect8 .quick .resources {
+    width: 100%;
+  }
+  .sect8 .quick .news {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
