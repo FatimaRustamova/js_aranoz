@@ -11,7 +11,7 @@ function getAllData (){
     .then(data => {
         arr_2 = data;
         aranoz.innerHTML = "";
-        arr_1 = search.value ? arr_1 : data;
+        arr_1 = arr_1.length || search.value ? arr_1 : data;
         arr_1.slice(0, page).forEach(element => {
             aranoz.innerHTML += `
                 <div class="quartz">
@@ -79,8 +79,9 @@ function getFavorites(id) {
 
 //---Search---//
 search.addEventListener("input", (e)=>{
+    arr_1 = arr_2;
     arr_1 = arr_1.filter((el)=> {
-        el.name.toLowerCase().includes(e.target.value.toLowerCase());
+        el.name.toLowerCase().includes(e.target.value.toLowerCase())
     });
     getAllData();
 })
